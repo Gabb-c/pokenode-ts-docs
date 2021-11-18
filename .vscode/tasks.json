@@ -1,0 +1,72 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "type": "npm",
+      "script": "build",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": [],
+      "label": "Build",
+      "detail": "Docusaurus build script"
+    },
+    {
+      "type": "npm",
+      "script": "start",
+      "problemMatcher": [],
+      "label": "Start",
+      "detail": "Docusaurus start script"
+    },
+    {
+      "type": "npm",
+      "script": "swizzle",
+      "problemMatcher": [],
+      "label": "Swizzle",
+      "detail": "Docusaurus swizzle script"
+    },
+    {
+      "type": "npm",
+      "script": "deploy",
+      "problemMatcher": [],
+      "label": "Deploy",
+      "detail": "Docusaurus deploy script"
+    },
+    {
+      "type": "npm",
+      "script": "clear",
+      "problemMatcher": [],
+      "label": "Clear",
+      "detail": "Docusaurus clear script"
+    },
+    {
+      "type": "npm",
+      "script": "serve",
+      "problemMatcher": [],
+      "label": "Serve",
+      "detail": "Docusaurus serve script"
+    },
+    {
+      "type": "npm",
+      "script": "write-translations",
+      "problemMatcher": [],
+      "label": "Write Translations",
+      "detail": "Docusaurus write translations script"
+    },
+    {
+      "type": "npm",
+      "script": "write-heading-ids",
+      "problemMatcher": [],
+      "label": "Write Heading Ids",
+      "detail": "Docusaurus write heading ids script"
+    },
+    {
+      "type": "npm",
+      "script": "typecheck",
+      "problemMatcher": [],
+      "label": "Typecheck",
+      "detail": "TypeScript typecheck"
+    }
+  ]
+}
