@@ -1,7 +1,21 @@
 {
   "name": "pokenode-ts-docs",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "private": true,
+  "description": "Pokenode-ts documentation.",
+  "homepage": "https://gabb-c.github.io/pokenode-ts/#/",
+  "bugs": {
+    "url": "https://github.com/Gabb-c/pokenode-ts-documentation/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Gabb-c/pokenode-ts-documentation"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Gabb-c",
+    "url": "https://github.com/Gabb-c"
+  },
   "scripts": {
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
@@ -42,5 +56,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "engines": {
+    "node": ">=14"
   }
 }
