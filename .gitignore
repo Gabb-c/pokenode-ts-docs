@@ -1,6 +1,7 @@
 # Docusaurus
 .docusaurus
 .cache-loader
+build
 
 # Runtime data
 lib-cov
