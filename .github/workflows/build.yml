@@ -30,4 +30,4 @@ jobs:
           install-command: yarn --frozen-lockfile --check-files --silent
 
       - name: Build
-        run: yarn build:ci
+        run: yarn build
