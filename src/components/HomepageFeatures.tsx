@@ -4,9 +4,9 @@
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
  */
-import React from 'react';
-import clsx from 'clsx';
-import styles from './HomepageFeatures.module.css';
+import React from "react";
+import clsx from "clsx";
+import styles from "./HomepageFeatures.module.css";
 
 type FeatureItem = {
   title: string;
@@ -16,40 +16,50 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
-    image: '/img/undraw_docusaurus_mountain.svg',
+    title: "Built-in Typings",
+    image: "/img/red-pokeball.png",
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Pokenode-ts contains up-to-date typings, based in the{" "}
+        <a href="https://pokeapi.co/" target="_blank">
+          PokéAPI Documentation
+        </a>
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    image: '/img/undraw_docusaurus_tree.svg',
+    title: "Axios Cache",
+    image: "/img/yellow-pokeball.png",
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        <a
+          href="https://github.com/RasCarlito/axios-cache-adapter"
+          target="_blank"
+        >
+          Axios auto-cache
+        </a>{" "}
+        feature can meke your app requests blazing fast!
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    image: '/img/undraw_docusaurus_react.svg',
+    title: "Low Overhead Logs",
+    image: "/img/blue-pokeball.png",
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Manipulate your app logs with{" "}
+        <a href="https://github.com/pinojs/pino" target="_blank">
+          Pino.js
+        </a>
+        , a super fast, all natural json logger
       </>
     ),
   },
 ];
 
-function Feature({title, image, description}: FeatureItem) {
+const Feature = ({ title, image, description }: FeatureItem): JSX.Element => {
   return (
-    <div className={clsx('col col--4')}>
+    <div className={clsx("col col--4")}>
       <div className="text--center">
         <img className={styles.featureSvg} alt={title} src={image} />
       </div>
@@ -59,9 +69,9 @@ function Feature({title, image, description}: FeatureItem) {
       </div>
     </div>
   );
-}
+};
 
-export default function HomepageFeatures(): JSX.Element {
+const HomepageFeatures = (): JSX.Element => {
   return (
     <section className={styles.features}>
       <div className="container">
@@ -73,4 +83,6 @@ export default function HomepageFeatures(): JSX.Element {
       </div>
     </section>
   );
-}
+};
+
+export default HomepageFeatures;

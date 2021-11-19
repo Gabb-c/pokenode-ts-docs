@@ -12,7 +12,7 @@ const config = {
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/red-pokeball.svg',
   organizationName: 'facebook', // Usually your GitHub org/user name.
   projectName: 'pokenode-ts', // Usually your repo name.
   trailingSlash: false,
@@ -50,7 +50,7 @@ const config = {
         title: 'Pokenode-ts',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/red-pokeball.svg',
         },
         items: [
           {
