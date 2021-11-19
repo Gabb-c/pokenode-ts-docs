@@ -4,26 +4,26 @@
 
 The Berry Client provide methods to access the [Berry Endpoinds](https://pokeapi.co/docs/v2#berries-section):
 
-- `getBerryByName`(name: `string`) => [Berry](typings/berry-typings?id=berry)
-- `getBerryById`(id: `number`) => [Berry](typings/berry-typings?id=berry)
-- `getBerryFirmnessByName`(name: `string`) => [BerryFirmness](typings/berry-typings?id=berry-firmness)
-- `getBerryFirmnessById`(id: `number`) => [BerryFirmness](typings/berry-typings?id=berry-firmness)
-- `getBerryFlavorByName`(name: `string`) => [BerryFlavor](typings/berry-typings?id=berry-flavor)
-- `getBerryFlavorById`(id: `number`) => [BerryFlavor](typings/berry-typings?id=berry-flavor)
-- `listBerries`(offset?: `number`, limit?: `number`) => [NamedAPIResourceList](typings/common-typings?id=named-api-resource-list)
-- `listBerryFirmness`(offset?: `number`, limit?: `number`) => [NamedAPIResourceList](typings/common-typings?id=named-api-resource-list)
-- `listBerryFlavors`(offset?: `number`, limit?: `number`) => [NamedAPIResourceList](typings/common-typings?id=named-api-resource-list)
+- `getBerryByName`(name: `string`) => [Berry](/docs/typings/berry-typings#berry)
+- `getBerryById`(id: `number`) => [Berry](/docs/typings/berry-typings#berry)
+- `getBerryFirmnessByName`(name: `string`) => [BerryFirmness](/docs/typings/berry-typings#berry-firmness)
+- `getBerryFirmnessById`(id: `number`) => [BerryFirmness](/docs/typings/berry-typings#berry-firmness)
+- `getBerryFlavorByName`(name: `string`) => [BerryFlavor](/docs/typings/berry-typings#berry-flavor)
+- `getBerryFlavorById`(id: `number`) => [BerryFlavor](/docs/typings/berry-typings#berry-flavor)
+- `listBerries`(offset?: `number`, limit?: `number`) => [NamedAPIResourceList](/docs/typings/common-typings#named-api-resource-list)
+- `listBerryFirmness`(offset?: `number`, limit?: `number`) => [NamedAPIResourceList](/docs/typings/common-typings#named-api-resource-list)
+- `listBerryFlavors`(offset?: `number`, limit?: `number`) => [NamedAPIResourceList](/docs/typings/common-typings#named-api-resource-list)
 
 ## Example
 
 ```js
-import { BerryClient } from 'pokenode-ts'; // import the BerryClient
+import { BerryClient } from "pokenode-ts"; // import the BerryClient
 
 (async () => {
   const api = new BerryClient(); // create a BerryClient
 
   await api
-    .getBerryByName('cheri')
+    .getBerryByName("cheri")
     .then((data) => console.log(data))
     .catch((error) => console.error(error));
 })();
@@ -32,7 +32,7 @@ import { BerryClient } from 'pokenode-ts'; // import the BerryClient
 Or:
 
 ```js
-import { BerryClient, Berries } from 'pokenode-ts'; // import the BerryClient and the Berries enum
+import { BerryClient, Berries } from "pokenode-ts"; // import the BerryClient and the Berries enum
 
 (async () => {
   const api = new BerryClient(); // create a BerryClient
