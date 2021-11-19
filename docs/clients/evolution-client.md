@@ -7,19 +7,19 @@ The Evolution Client provide methods to access the [Evolution Endpoinds](https:/
 - `getEvolutionChainByID`(id: `number`) => [EvolutionChain](typings/evolution-typings?id=evolution-chain)
 - `getEvolutionTriggerByName`(name: `string`) => [EvolutionTrigger](typings/evolution-typings?id=evolution-trigger)
 - `getEvolutionTriggerByID`(id: `number`) => [EvolutionTrigger](typings/evolution-typings?id=evolution-trigger)
-- `listEvolutionChains`(offset?: `number`, limit?: `number`) => [NamedAPIResourceList](typings/common-typings?id=named-api-resource-list)
-- `listEvolutionTriggers`(offset?: `number`, limit?: `number`) => [NamedAPIResourceList](typings/common-typings?id=named-api-resource-list)
+- `listEvolutionChains`(offset?: `number`, limit?: `number`) => [NamedAPIResourceList](/docs/typings/common-typings#named-api-resource-list)
+- `listEvolutionTriggers`(offset?: `number`, limit?: `number`) => [NamedAPIResourceList](/docs/typings/common-typings#named-api-resource-list)
 
 ## Example
 
 ```js
-import { EvolutionClient } from 'pokenode-ts'; // import the EvolutionClient
+import { EvolutionClient } from "pokenode-ts"; // import the EvolutionClient
 
 (async () => {
   const api = new EvolutinClient(); // create a EncounterClient
 
   await api
-    .getEvolutionTriggerByName('level-up')
+    .getEvolutionTriggerByName("level-up")
     .then((data) => console.log(data))
     .catch((error) => console.error(error));
 })();
@@ -28,7 +28,7 @@ import { EvolutionClient } from 'pokenode-ts'; // import the EvolutionClient
 Or:
 
 ```js
-import { EvolutionClient, EvolutionTriggers } from 'pokenode-ts'; // import the EvolutionClient and the EvolutionTriggers enum
+import { EvolutionClient, EvolutionTriggers } from "pokenode-ts"; // import the EvolutionClient and the EvolutionTriggers enum
 
 (async () => {
   const api = new EvolutinClient(); // create a EncounterClient

@@ -10,14 +10,14 @@ The Encounter Client provide methods to access the [Encounter Endpoinds](https:/
 - `getEncounterConditionById`(id: `number`) => [EncounterCondition](typings/encounter-typings?id=encointer-condition)
 - `getEncounterConditionValueByName`(name: `string`) => [EncounterConditionValue](typings/encounter-typings?id=encounter-condition-value)
 - `getEncounterConditionValueById`(id: `number`) => [EncounterConditionValue](typings/encounter-typings?id=encointer-condition-value)
-- `listEncunterMethods`(offset?: `number`, limit?: `number`) => [NamedAPIResourceList](typings/common-typings?id=named-api-resource-list)
-- `listEncounterConditions`(offset?: `number`, limit?: `number`) => [NamedAPIResourceList](typings/common-typings?id=named-api-resource-list)
-- `listEncounterConditionValues`(offset?: `number`, limit?: `number`) => [NamedAPIResourceList](typings/common-typings?id=named-api-resource-list)
+- `listEncunterMethods`(offset?: `number`, limit?: `number`) => [NamedAPIResourceList](/docs/typings/common-typings#named-api-resource-list)
+- `listEncounterConditions`(offset?: `number`, limit?: `number`) => [NamedAPIResourceList](/docs/typings/common-typings#named-api-resource-list)
+- `listEncounterConditionValues`(offset?: `number`, limit?: `number`) => [NamedAPIResourceList](/docs/typings/common-typings#named-api-resource-list)
 
 ## Example
 
 ```js
-import { EncounterClient, EncounterMethods } from 'pokenode-ts'; // import the EncounterClient (EncounterMethods enum is fully optional)
+import { EncounterClient, EncounterMethods } from "pokenode-ts"; // import the EncounterClient (EncounterMethods enum is fully optional)
 
 (async () => {
   const api = new EncounterClient(); // create a EncounterClient

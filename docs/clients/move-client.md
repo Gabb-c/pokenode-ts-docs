@@ -18,13 +18,13 @@ The Move Client provide methods to access the [Move Endpoinds](https://pokeapi.c
 - `getMoveLearnMethodById`(id: `number`) => [MoveLearnMethod](typings/move-typings?id=move-learn-method)
 - `getMoveTargetByName`(name: `string`) => [MoveTarget](typings/move-typings?id=move-target)
 - `getMoveTargetById`(id: `number`) => [MoveTarget](typings/move-typings?id=move-target)
-- `listMoves`(offset?: `number`, limit?: `number`) => [NamedAPIResourceList](typings/common-typings?id=named-api-resource-list)
-- `listMoveAilments`(offset?: `number`, limit?: `number`) => [NamedAPIResourceList](typings/common-typings?id=named-api-resource-list)
-- `listMoveBattleStyles`(offset?: `number`, limit?: `number`) => [NamedAPIResourceList](typings/common-typings?id=named-api-resource-list)
-- `listMoveCategories`(offset?: `number`, limit?: `number`) => [NamedAPIResourceList](typings/common-typings?id=named-api-resource-list)
-- `listMoveDamageClasses`(offset?: `number`, limit?: `number`) => [NamedAPIResourceList](typings/common-typings?id=named-api-resource-list)
-- `listMoveLearnMethods`(offset?: `number`, limit?: `number`) => [NamedAPIResourceList](typings/common-typings?id=named-api-resource-list)
-- `listMoveTargets`(offset?: `number`, limit?: `number`) => [NamedAPIResourceList](typings/common-typings?id=named-api-resource-list)
+- `listMoves`(offset?: `number`, limit?: `number`) => [NamedAPIResourceList](/docs/typings/common-typings#named-api-resource-list)
+- `listMoveAilments`(offset?: `number`, limit?: `number`) => [NamedAPIResourceList](/docs/typings/common-typings#named-api-resource-list)
+- `listMoveBattleStyles`(offset?: `number`, limit?: `number`) => [NamedAPIResourceList](/docs/typings/common-typings#named-api-resource-list)
+- `listMoveCategories`(offset?: `number`, limit?: `number`) => [NamedAPIResourceList](/docs/typings/common-typings#named-api-resource-list)
+- `listMoveDamageClasses`(offset?: `number`, limit?: `number`) => [NamedAPIResourceList](/docs/typings/common-typings#named-api-resource-list)
+- `listMoveLearnMethods`(offset?: `number`, limit?: `number`) => [NamedAPIResourceList](/docs/typings/common-typings#named-api-resource-list)
+- `listMoveTargets`(offset?: `number`, limit?: `number`) => [NamedAPIResourceList](/docs/typings/common-typings#named-api-resource-list)
 
 ## Example
 

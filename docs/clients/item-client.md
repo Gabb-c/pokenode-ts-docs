@@ -14,16 +14,16 @@ The Item Client provide methods to access the [Item Endpoinds](https://pokeapi.c
 - `getItemFlingEffectById`(id: `number`) => [ItemFlingEffect](typings/item-typings?id=item-fling-effect)
 - `getItemPocketById`(id: `number`) => [ItemPocket](typings/item-typings?id=item-pocket)
 - `getItemPocketByName`(name: `string`) => [ItemPocket](typings/item-typings?id=item-pocket)
-- `listItems`(offset?: `number`, limit?: `number`) => [NamedAPIResourceList](typings/common-typings?id=named-api-resource-list)
-- `listItemAttributes`(offset?: `number`, limit?: `number`) => [NamedAPIResourceList](typings/common-typings?id=named-api-resource-list)
-- `listItemCategories`(offset?: `number`, limit?: `number`) => [NamedAPIResourceList](typings/common-typings?id=named-api-resource-list)
-- `listItemFlingEffects`(offset?: `number`, limit?: `number`) => [NamedAPIResourceList](typings/common-typings?id=named-api-resource-list)
-- `listItemPockets`(offset?: `number`, limit?: `number`) => [NamedAPIResourceList](typings/common-typings?id=named-api-resource-list)
+- `listItems`(offset?: `number`, limit?: `number`) => [NamedAPIResourceList](/docs/typings/common-typings#named-api-resource-list)
+- `listItemAttributes`(offset?: `number`, limit?: `number`) => [NamedAPIResourceList](/docs/typings/common-typings#named-api-resource-list)
+- `listItemCategories`(offset?: `number`, limit?: `number`) => [NamedAPIResourceList](/docs/typings/common-typings#named-api-resource-list)
+- `listItemFlingEffects`(offset?: `number`, limit?: `number`) => [NamedAPIResourceList](/docs/typings/common-typings#named-api-resource-list)
+- `listItemPockets`(offset?: `number`, limit?: `number`) => [NamedAPIResourceList](/docs/typings/common-typings#named-api-resource-list)
 
 ## Example
 
 ```js
-import { ItemClient } from 'pokenode-ts'; // import the ItemClient
+import { ItemClient } from "pokenode-ts"; // import the ItemClient
 
 (async () => {
   const api = new ItemClient(); // create an ItemClient
@@ -38,13 +38,13 @@ import { ItemClient } from 'pokenode-ts'; // import the ItemClient
 Or:
 
 ```js
-import { ItemClient } from 'pokenode-ts'; // import the ItemClient
+import { ItemClient } from "pokenode-ts"; // import the ItemClient
 
 (async () => {
   const api = new ItemClient(); // create an ItemClient
 
   await api
-    .getItemByName('medicine')
+    .getItemByName("medicine")
     .then((data) => console.log(data))
     .catch((error) => console.error(error));
 })();

@@ -7,25 +7,25 @@ The Utility Client provide methods to access the [Languages Endpoinds](https://p
 - `getLanguageByName`(name: `string`) => [Language](typings/common-typings?id=language)
 - `getLanguageById`(id: `number`) => [Language](typings/common-typings?id=language)
 - `getResourceByUrl`(url: `string`) => `any`
-- `listLanguagesF`(offset?: `number`, limit?: `number`) => [NamedAPIResourceList](typings/common-typings?id=named-api-resource-list)
+- `listLanguagesF`(offset?: `number`, limit?: `number`) => [NamedAPIResourceList](/docs/typings/common-typings#named-api-resource-list)
 
 ## Example
 
 ```ts
-import { UtilityClient } from 'pokenode-ts'; // import the UtilityClient
+import { UtilityClient } from "pokenode-ts"; // import the UtilityClient
 
 (async () => {
   const api = new UtilityClient(); // create a UtilityClient
 
   await api
-    .getResourceByUrl('https://pokeapi.co/api/v2/pokemon/luxray') // using method getResourceByUrl() (pokemon endpoint)
+    .getResourceByUrl("https://pokeapi.co/api/v2/pokemon/luxray") // using method getResourceByUrl() (pokemon endpoint)
     .then((response: Pokemon) => console.log(response)) // The resource will be a Pokemon (Luxray)
     .catch((error) => console.log(error));
 })();
 ```
 
 ```js
-import { UtilityClient, Languages } from 'pokenode-ts'; // import the UtilityClient
+import { UtilityClient, Languages } from "pokenode-ts"; // import the UtilityClient
 
 (async () => {
   const api = new UtilityClient(); // create a UtilityClient

@@ -8,20 +8,20 @@ The Contest Client provide methods to access the [Contest Endpoinds](https://pok
 - `getContestTypeByID`(id: `number`) => [ContestType](typings/contest-typings?id=contest-type)
 - `getContestEffectById`(name: `string`) => [ContestEffect](typings/contest-typings?id=contest-effect)
 - `getSuperContestEffectById`(id: `number`) => [SuperContestEffect](typings/contest-typings?id=super-contest-effect)
-- `listContestTypes`(offset?: `number`, limit?: `number`) => [NamedAPIResourceList](typings/common-typings?id=named-api-resource-list)
-- `listContestEffects`(offset?: `number`, limit?: `number`) => [NamedAPIResourceList](typings/common-typings?id=named-api-resource-list)
-- `listSuperContestEffects`(offset?: `number`, limit?: `number`) => [NamedAPIResourceList](typings/common-typings?id=named-api-resource-list)
+- `listContestTypes`(offset?: `number`, limit?: `number`) => [NamedAPIResourceList](/docs/typings/common-typings#named-api-resource-list)
+- `listContestEffects`(offset?: `number`, limit?: `number`) => [NamedAPIResourceList](/docs/typings/common-typings#named-api-resource-list)
+- `listSuperContestEffects`(offset?: `number`, limit?: `number`) => [NamedAPIResourceList](/docs/typings/common-typings#named-api-resource-list)
 
 ## Example
 
 ```js
-import { ContestClient } from 'pokenode-ts'; // import the ContestClient
+import { ContestClient } from "pokenode-ts"; // import the ContestClient
 
 (async () => {
   const api = new ContestClient(); // create a ContestClient
 
   await api
-    .getContestTypeByName('tough')
+    .getContestTypeByName("tough")
     .then((data) => console.log(data))
     .catch((error) => console.error(error));
 })();
@@ -30,7 +30,7 @@ import { ContestClient } from 'pokenode-ts'; // import the ContestClient
 Or:
 
 ```js
-import { ContestClient, ContestTypes } from 'pokenode-ts'; // import the ContestClient and the ContestTypes enum
+import { ContestClient, ContestTypes } from "pokenode-ts"; // import the ContestClient and the ContestTypes enum
 
 (async () => {
   const api = new ContestClient(); // create a ContestClient

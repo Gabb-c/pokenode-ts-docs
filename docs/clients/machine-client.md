@@ -5,7 +5,7 @@
 The Machine Client provide methods to access the [Machine Endpoinds](https://pokeapi.co/docs/v2#machines-section):
 
 - `getMachineById`(id: `number`) => [Machine](typings/machine-typings?id=machine)
-- `listMachines`(offset?: `number`, limit?: `number`) => [NamedAPIResourceList](typings/common-typings?id=named-api-resource-list)
+- `listMachines`(offset?: `number`, limit?: `number`) => [NamedAPIResourceList](/docs/typings/common-typings#named-api-resource-list)
 
 ## Example
 

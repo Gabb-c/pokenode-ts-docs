@@ -12,21 +12,21 @@ The Game Client provide methods to access the [Game Endpoinds](https://pokeapi.c
 - `getVersionById`(id: `number`) => [Version](/game-typings?id=version)
 - `getVersionGroupByName`(name: `string`) => [VersionGroup](/game-typings?id=version-group)
 - `getVersionGroupById`(id: `number`) => [VersionGroup](/game-typings?id=version-group)
-- `listGenerations`(offset?: `number`, limit?: `number`) => [NamedAPIResourceList](typings/common-typings?id=named-api-resource-list)
-- `listPokedexes`(offset?: `number`, limit?: `number`) => [NamedAPIResourceList](typings/common-typings?id=named-api-resource-list)
-- `listVersion`(offset?: `number`, limit?: `number`) => [NamedAPIResourceList](typings/common-typings?id=named-api-resource-list)
-- `listVersionGroups`(offset?: `number`, limit?: `number`) => [NamedAPIResourceList](typings/common-typings?id=named-api-resource-list)
+- `listGenerations`(offset?: `number`, limit?: `number`) => [NamedAPIResourceList](/docs/typings/common-typings#named-api-resource-list)
+- `listPokedexes`(offset?: `number`, limit?: `number`) => [NamedAPIResourceList](/docs/typings/common-typings#named-api-resource-list)
+- `listVersion`(offset?: `number`, limit?: `number`) => [NamedAPIResourceList](/docs/typings/common-typings#named-api-resource-list)
+- `listVersionGroups`(offset?: `number`, limit?: `number`) => [NamedAPIResourceList](/docs/typings/common-typings#named-api-resource-list)
 
 ## Example
 
 ```js
-import { GameClient } from 'pokenode-ts'; // import the GameClient
+import { GameClient } from "pokenode-ts"; // import the GameClient
 
 (async () => {
   const api = new GameClient(); // create a GameClient
 
   await api
-    .getPokedexByName('national')
+    .getPokedexByName("national")
     .then((data) => console.log(data))
     .catch((error) => console.error(error));
 })();
@@ -35,7 +35,7 @@ import { GameClient } from 'pokenode-ts'; // import the GameClient
 Or:
 
 ```js
-import { GameClient, Pokedexes } from 'pokenode-ts'; // import the GameClient and the Pokedexes enum
+import { GameClient, Pokedexes } from "pokenode-ts"; // import the GameClient and the Pokedexes enum
 
 (async () => {
   const api = new GameClient(); // create a GameClient

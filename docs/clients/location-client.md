@@ -12,15 +12,15 @@ The Location Client provide methods to access the [Location Endpoinds](https://p
 - `getPalParkAreaById`(id: `number`) => [PalParkArea](typings/location-typings?id=pal-park-area)
 - `getRegionByName`(name: `string`) => [Region](typings/location-typings?id=region)
 - `getRegionById`(id: `number`) => [Region](typings/location-typings?id=region)
-- `listLocations`(offset?: `number`, limit?: `number`) => [NamedAPIResourceList](typings/common-typings?id=named-api-resource-list)
-- `listLocationAreas`(offset?: `number`, limit?: `number`) => [NamedAPIResourceList](typings/common-typings?id=named-api-resource-list)
-- `listPalParkAreas`(offset?: `number`, limit?: `number`) => [NamedAPIResourceList](typings/common-typings?id=named-api-resource-list)
-- `listRegions`(offset?: `number`, limit?: `number`) => [NamedAPIResourceList](typings/common-typings?id=named-api-resource-list)
+- `listLocations`(offset?: `number`, limit?: `number`) => [NamedAPIResourceList](/docs/typings/common-typings#named-api-resource-list)
+- `listLocationAreas`(offset?: `number`, limit?: `number`) => [NamedAPIResourceList](/docs/typings/common-typings#named-api-resource-list)
+- `listPalParkAreas`(offset?: `number`, limit?: `number`) => [NamedAPIResourceList](/docs/typings/common-typings#named-api-resource-list)
+- `listRegions`(offset?: `number`, limit?: `number`) => [NamedAPIResourceList](/docs/typings/common-typings#named-api-resource-list)
 
 ## Example
 
 ```js
-import { LocationClient, PalParkAreas } from 'pokenode-ts'; // import the LocationClient and the PalParkAreas enum
+import { LocationClient, PalParkAreas } from "pokenode-ts"; // import the LocationClient and the PalParkAreas enum
 
 (async () => {
   const api = new LocationClient(); // create an LocationClient
@@ -35,13 +35,13 @@ import { LocationClient, PalParkAreas } from 'pokenode-ts'; // import the Locati
 Or:
 
 ```js
-import { LocationClient } from 'pokenode-ts'; // import the LocationClient
+import { LocationClient } from "pokenode-ts"; // import the LocationClient
 
 (async () => {
   const api = new LocationClient(); // create an LocationClient
 
   await api
-    .getPalParkAreaByName('forest')
+    .getPalParkAreaByName("forest")
     .then((data) => console.log(data))
     .catch((error) => console.error(error));
 })();
