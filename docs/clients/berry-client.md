@@ -4,15 +4,15 @@
 
 The Berry Client provide methods to access the [Berry Endpoinds](https://pokeapi.co/docs/v2#berries-section):
 
-- `getBerryByName`(name: `string`) => [Berry](/docs/typings/berry-typings#berry)
-- `getBerryById`(id: `number`) => [Berry](/docs/typings/berry-typings#berry)
-- `getBerryFirmnessByName`(name: `string`) => [BerryFirmness](/docs/typings/berry-typings#berry-firmness)
-- `getBerryFirmnessById`(id: `number`) => [BerryFirmness](/docs/typings/berry-typings#berry-firmness)
-- `getBerryFlavorByName`(name: `string`) => [BerryFlavor](/docs/typings/berry-typings#berry-flavor)
-- `getBerryFlavorById`(id: `number`) => [BerryFlavor](/docs/typings/berry-typings#berry-flavor)
-- `listBerries`(offset?: `number`, limit?: `number`) => [NamedAPIResourceList](/docs/typings/common-typings#named-api-resource-list)
-- `listBerryFirmness`(offset?: `number`, limit?: `number`) => [NamedAPIResourceList](/docs/typings/common-typings#named-api-resource-list)
-- `listBerryFlavors`(offset?: `number`, limit?: `number`) => [NamedAPIResourceList](/docs/typings/common-typings#named-api-resource-list)
+- `getBerryByName`(name: `string`) : [Berry](/docs/typings/berry-typings#berry)
+- `getBerryById`(id: `number`) : [Berry](/docs/typings/berry-typings#berry)
+- `getBerryFirmnessByName`(name: `string`) : [BerryFirmness](/docs/typings/berry-typings#berry-firmness)
+- `getBerryFirmnessById`(id: `number`) : [BerryFirmness](/docs/typings/berry-typings#berry-firmness)
+- `getBerryFlavorByName`(name: `string`) : [BerryFlavor](/docs/typings/berry-typings#berry-flavor)
+- `getBerryFlavorById`(id: `number`) : [BerryFlavor](/docs/typings/berry-typings#berry-flavor)
+- `listBerries`(offset?: `number`, limit?: `number`) : [NamedAPIResourceList](/docs/typings/common-typings#named-api-resource-list)
+- `listBerryFirmness`(offset?: `number`, limit?: `number`) : [NamedAPIResourceList](/docs/typings/common-typings#named-api-resource-list)
+- `listBerryFlavors`(offset?: `number`, limit?: `number`) : [NamedAPIResourceList](/docs/typings/common-typings#named-api-resource-list)
 
 ## Example
 
