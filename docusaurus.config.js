@@ -44,6 +44,7 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      Image: 'img/banner.jpg',
       navbar: {
         title: 'Pokenode-ts',
         logo: {
