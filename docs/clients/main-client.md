@@ -4,28 +4,28 @@
 
 The Main Client provide methods to access all of the [PokéAPI Endpoinds](https://pokeapi.co/docs/v2):
 
-- [Berry](clients/berry-client.md)
-- [Contest](clients/contest-client.md)
-- [Encounter](clients/encounter-client.md)
-- [Evolution](clients/evolution-client.md)
-- [Game](clients/game-client.md)
-- [Item](clients/item-client.md)
-- [Location](clients/location-client.md)
-- [Machine](clients/machine-client.md)
-- [Move](clients/move-client.md)
-- [Pokemon](clients/pokemon-client.md)
-- [Utility](clients/utility-client.md)
+- [Berry](/docs/clients/berry-client)
+- [Contest](/docs/clients/contest-client)
+- [Encounter](/docs/clients/encounter-client)
+- [Evolution](/docs/clients/evolution-client)
+- [Game](/docs/clients/game-client)
+- [Item](/docs/clients/item-client)
+- [Location](/docs/clients/location-client)
+- [Machine](/docs/clients/machine-client)
+- [Move](/docs/clients/move-client)
+- [Pokemon](/docs/clients/pokemon-client)
+- [Utility](/docs/clients/utility-client)
 
 ## Example
 
 ```js
-import { MainClient } from 'pokenode-ts';
+import { MainClient } from "pokenode-ts";
 
 (async () => {
   const api = new MainClient();
 
   await api.berry
-    .getBerryByName('cheri')
+    .getBerryByName("cheri")
     .then((data) => console.log(data.name)) // will output "cheri"
     .catch((error) => console.error(error));
 })();
