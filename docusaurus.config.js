@@ -76,6 +76,18 @@ const config = {
                 to: '/docs/intro',
               },
               {
+                label: 'Clients',
+                to: '/docs/clients/berry-client',
+              },
+              {
+                label: 'Guides',
+                to: '/docs/guides/options',
+              },
+              {
+                label: 'Typings',
+                to: '/docs/typings/berry-typings',
+              },
+              {
                 label: 'Contribuiting',
                 to: '/docs/contribuiting/contributing',
               },

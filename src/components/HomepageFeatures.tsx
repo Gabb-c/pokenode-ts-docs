@@ -24,6 +24,7 @@ const FeatureList: FeatureItem[] = [
         <a href="https://pokeapi.co/" target="_blank">
           PokéAPI Documentation
         </a>
+        .
       </>
     ),
   },
@@ -38,7 +39,8 @@ const FeatureList: FeatureItem[] = [
         >
           Axios auto-cache
         </a>{" "}
-        feature can meke your app requests blazing fast!
+        feature can meke your app requests blazing fast! You can store request
+        results to prevent unneeded network requests.
       </>
     ),
   },
@@ -51,7 +53,7 @@ const FeatureList: FeatureItem[] = [
         <a href="https://github.com/pinojs/pino" target="_blank">
           Pino.js
         </a>
-        , a super fast, all natural json logger
+        , a super fast, all natural json logger.
       </>
     ),
   },
