@@ -4,10 +4,10 @@
 
 The Utility Client provide methods to access the [Languages Endpoinds](https://pokeapi.co/docs/v2#languages-section) and resources:
 
-- `getLanguageByName`(name: `string`) => [Language](typings/common-typings?id=language)
-- `getLanguageById`(id: `number`) => [Language](typings/common-typings?id=language)
-- `getResourceByUrl`(url: `string`) => `any`
-- `listLanguagesF`(offset?: `number`, limit?: `number`) => [NamedAPIResourceList](/docs/typings/common-typings#named-api-resource-list)
+- `getLanguageByName`(name: `string`) : [Language](/docs/typings/common-typings#language)
+- `getLanguageById`(id: `number`) : [Language](/docs/typings/common-typings#language)
+- `getResourceByUrl`(url: `string`) : `any`
+- `listLanguagesF`(offset?: `number`, limit?: `number`) : [NamedAPIResourceList](/docs/typings/common-typings#named-api-resource-list)
 
 ## Example
 
