@@ -4,8 +4,6 @@
 
 Methods by which the player might can encounter Pokémon in the wild, e.g., walking in tall grass.
 
-> Check out [Bulbapedia](https://bulbapedia.bulbagarden.net/wiki/Wild_Pok%C3%A9mon) for greater detail.
-
 ```ts
 export interface EncounterMethod {
   /** The identifier for this resource */
@@ -19,11 +17,11 @@ export interface EncounterMethod {
 }
 ```
 
+> Check out [Bulbapedia](https://bulbapedia.bulbagarden.net/wiki/Wild_Pok%C3%A9mon) for greater detail.
+
 ## Encounter Condition
 
-Conditions which affect what pokemon might appear in the wild, e.g., day or night.
-
-> Check out [Bulbapedia](https://bulbapedia.bulbagarden.net/wiki/Time)
+Conditions which affect what pokemon might appear in the wild, e.g., **day** or **night**.
 
 ```ts
 export interface EncounterCondition {
@@ -38,12 +36,12 @@ export interface EncounterCondition {
 }
 ```
 
+> Check out [Bulbapedia](https://bulbapedia.bulbagarden.net/wiki/Time)
+
 ## Encounter Condition Value
 
 Encounter condition values are the various states that an encounter
 condition can have, i.e., time of day can be either **day** or **night**.
-
-> Check out [Bulbapedia](https://bulbapedia.bulbagarden.net/wiki/Time)
 
 ```ts
 export interface EncounterConditionValue {
@@ -57,3 +55,5 @@ export interface EncounterConditionValue {
   names: Name[];
 }
 ```
+
+> Check out [Bulbapedia](https://bulbapedia.bulbagarden.net/wiki/Time)

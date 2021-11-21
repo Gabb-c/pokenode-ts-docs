@@ -78,8 +78,6 @@ export interface MoveCategory {
 
 Styles of moves when used in the Battle Palace.
 
-> Check out [Bulbapedia](<https://bulbapedia.bulbagarden.net/wiki/Battle_Frontier_(Generation_III)>) for greater detail.
-
 ```ts
 export interface MoveBattleStyle {
   /** The identifier for this resource. */
@@ -91,11 +89,11 @@ export interface MoveBattleStyle {
 }
 ```
 
+> Check out [Bulbapedia](<https://bulbapedia.bulbagarden.net/wiki/Battle_Frontier_(Generation_III)>) for greater detail.
+
 ## Move Ailment
 
 Move Ailments are status conditions caused by moves used during battle.
-
-> Check out [Bulbapedia](https://bulbapedia.bulbagarden.net/wiki/Status_condition) for greater detail.
 
 ```ts
 export interface MoveAilment {
@@ -109,6 +107,8 @@ export interface MoveAilment {
   names: Name[];
 }
 ```
+
+> Check out [Bulbapedia](https://bulbapedia.bulbagarden.net/wiki/Status_condition) for greater detail.
 
 ## Past Move Stat Values
 
@@ -226,8 +226,6 @@ Moves are the skills of Pokémon in battle. In battle, a Pokémon uses one move 
 Some moves (including those learned by Hidden Machine) can be used outside of battle as well,
 usually for the purpose of removing obstacles or exploring new areas.
 
-> Check out [Bulbapedia](https://bulbapedia.bulbagarden.net/wiki/Move) for greater detail.
-
 ```ts
 export interface Move {
   /** The identifier for this resource */
@@ -281,3 +279,5 @@ export interface Move {
   type: NamedAPIResource;
 }
 ```
+
+> Check out [Bulbapedia](https://bulbapedia.bulbagarden.net/wiki/Move) for greater detail.

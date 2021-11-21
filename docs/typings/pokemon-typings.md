@@ -7,8 +7,6 @@ They can be caught using Pokéballs and trained by battling with other Pokémon.
 Each Pokémon belongs to a specific species but may take on a variant
 which makes it differ from other Pokémon of the same species, such as base stats, available abilities and typings.
 
-> Check out [Bulbapedia](<https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_(species)>) for greater detail.
-
 ```ts
 export interface Pokemon {
   /** The identifier for this resource */
@@ -49,6 +47,8 @@ export interface Pokemon {
   types: PokemonType[];
 }
 ```
+
+> Check out [Bulbapedia](<https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_(species)>) for greater detail.
 
 ## Pokmeon Ability
 
@@ -151,8 +151,6 @@ export interface PokemonStat {
 
 A set of sprites used to depict this Pokémon in the game.
 
-> A visual representation of the various sprites can be found at [PokeAPI/sprites](https://github.com/PokeAPI/sprites#sprites).
-
 ```ts
 export interface PokemonSprites {
   /** The default depiction of this Pokémon from the front in battle */
@@ -173,6 +171,8 @@ export interface PokemonSprites {
   back_shiny_female: string;
 }
 ```
+
+> A visual representation of the various sprites can be found at [PokeAPI/sprites](https://github.com/PokeAPI/sprites#sprites).
 
 ## Location Area Encounter
 
@@ -437,8 +437,6 @@ export interface PokemonSpeciesVariety {
 Abilities provide passive effects for Pokémon in battle or in the overworld.
 Pokémon have multiple possible abilities but can have only one ability at a time.
 
-> Check out [Bulbapedia](https://bulbapedia.bulbagarden.net/wiki/Ability) for greater detail.
-
 ```ts
 export interface Ability {
   /** The identifier for this resource */
@@ -461,6 +459,8 @@ export interface Ability {
   pokemon: AbilityPokemon[];
 }
 ```
+
+> Check out [Bulbapedia](https://bulbapedia.bulbagarden.net/wiki/Ability) for greater detail.
 
 ## Ability Effect Change
 
@@ -513,8 +513,6 @@ export interface AbilityPokemon {
 Characteristics indicate which stat contains a Pokémon's highest IV.
 A Pokémon's Characteristic is determined by the remainder of its highest IV divided by 5 (gene_modulo).
 
-> Check out [Bulbapedia](https://bulbapedia.bulbagarden.net/wiki/Characteristic) for greater detail.
-
 ```ts
 export interface Characteristic {
   /** The identifier for this resource */
@@ -526,12 +524,12 @@ export interface Characteristic {
 }
 ```
 
+> Check out [Bulbapedia](https://bulbapedia.bulbagarden.net/wiki/Characteristic) for greater detail.
+
 ## Egg Group
 
 Egg Groups are categories which determine which Pokémon are able to interbreed.
 Pokémon may belong to either one or two Egg Groups.
-
-> Check out [Bulbapedia](https://bulbapedia.bulbagarden.net/wiki/Egg_Group) for greater detail.
 
 ```ts
 export interface EggGroup {
@@ -546,12 +544,12 @@ export interface EggGroup {
 }
 ```
 
+> Check out [Bulbapedia](https://bulbapedia.bulbagarden.net/wiki/Egg_Group) for greater detail.
+
 ## Gender
 
 Genders were introduced in Generation II for the purposes of breeding Pokémon
 but can also result in visual differences or even different evolutionary lines.
-
-> Check out [Bulbapedia](https://bulbapedia.bulbagarden.net/wiki/Gender) for greater detail.
 
 ```ts
 export interface Gender {
@@ -565,6 +563,8 @@ export interface Gender {
   required_for_evolution: NamedAPIResource[];
 }
 ```
+
+> Check out [Bulbapedia](https://bulbapedia.bulbagarden.net/wiki/Gender) for greater detail.
 
 ## Pokemon Species Gender
 
@@ -583,8 +583,6 @@ export interface PokemonSpeciesGender {
 
 Growth rates are the speed with which Pokémon gain levels through experience.
 
-> Check out [Bulbapedia](https://bulbapedia.bulbagarden.net/wiki/Experience) for greater detail.
-
 ```ts
 export interface GrowthRate {
   /** The identifier for this resource */
@@ -601,6 +599,8 @@ export interface GrowthRate {
   pokemon_species: NamedAPIResource[];
 }
 ```
+
+> Check out [Bulbapedia](https://bulbapedia.bulbagarden.net/wiki/Experience) for greater detail.
 
 ## Growth Rate Experience Level
 
@@ -630,8 +630,6 @@ A Pokémon's Nature usually affects the value of two of its stats, ultimately in
 
 ---
 
-> Check out [Bulbapedia](https://bulbapedia.bulbagarden.net/wiki/Nature) for greater detail.
-
 ```ts
 export interface Nature {
   /**The identifier for this resource */
@@ -654,6 +652,8 @@ export interface Nature {
   names: Name[];
 }
 ```
+
+> Check out [Bulbapedia](https://bulbapedia.bulbagarden.net/wiki/Nature) for greater detail.
 
 ## Nature Stat Change
 
@@ -689,8 +689,6 @@ export interface MoveBattleStylePreference {
 Pokeathlon Stats are different attributes of a Pokémon's performance in Pokéathlons.
 In Pokéathlons, competitions happen on different courses; one for each of the different Pokéathlon stats.
 
-> Check out [Bulbapedia](https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9athlon) for greater detail.
-
 ```ts
 export interface PokeathlonStat {
   /** The identifier for this resource */
@@ -703,6 +701,8 @@ export interface PokeathlonStat {
   affecting_natures: NaturePokeathlonStatAffectSets;
 }
 ```
+
+> Check out [Bulbapedia](https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9athlon) for greater detail.
 
 ## Nature Pokeathlon Stat Affect
 

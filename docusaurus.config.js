@@ -8,13 +8,13 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Pokenode-ts',
   tagline: 'A lightweight Node.js wrapper for the PokéAPI with built-in types.',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://pokenode-ts.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/red-pokeball.svg',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'pokenode-ts', // Usually your repo name.
+  organizationName: 'Gabb-c',
+  projectName: 'pokenode-ts',
   trailingSlash: false,
 
   presets: [
@@ -24,13 +24,11 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          editUrl: 'https://github.com/Gabb-c/pokenode-ts-docs/edit/main',
+          editUrl: 'https://github.com/Gabb-c/pokenode-ts-docs/edit/docs',
         },
         blog: {
           showReadingTime: true,
-          // Please change this to your repo.
-          editUrl: 'https://github.com/Gabb-c/pokenode-ts-docs/edit/main',
+          editUrl: 'https://github.com/Gabb-c/pokenode-ts-docs/edit/docs',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -71,11 +69,15 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Documentation',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Introduction',
                 to: '/docs/intro',
+              },
+              {
+                label: 'Contribuiting',
+                to: '/docs/contribuiting/contributing',
               },
             ],
           },
@@ -83,16 +85,20 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'Github',
+                href: 'https://github.com/Gabb-c/pokenode-ts',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: 'Ko-fi',
+                href: 'https://ko-fi.com/pokenodets',
               },
               {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                label: 'Pull Requests',
+                href: 'https://github.com/Gabb-c/pokenode-ts/pulls',
+              },
+              {
+                label: 'Issues',
+                href: 'https://github.com/Gabb-c/pokenode-ts/issues',
               },
             ],
           },
@@ -103,14 +109,10 @@ const config = {
                 label: 'Blog',
                 to: '/blog',
               },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
-              },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} pokenode-ts, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Pokenode-ts, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
@@ -136,7 +138,7 @@ const config = {
           {
             tagName: 'link',
             rel: 'manifest',
-            href: '/manifest.json', // your PWA manifest
+            href: '/manifest.json',
           },
           {
             tagName: 'meta',

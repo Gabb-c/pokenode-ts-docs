@@ -5,8 +5,6 @@
 Berries are small fruits that can provide HP and status condition restoration,
 stat enhancement, and even damage negation when eaten by Pokémon.
 
-> Check out [Bulbapedia](https://bulbapedia.bulbagarden.net/wiki/Berry) for greater detail.
-
 ```ts
 export interface Berry {
   /** The identifier for this resource */
@@ -36,11 +34,11 @@ export interface Berry {
 }
 ```
 
+> Check out [Bulbapedia](https://bulbapedia.bulbagarden.net/wiki/Berry) for greater detail.
+
 ## Berry Flavor
 
 Flavors determine whether a Pokémon will benefit or suffer from eating a berry based on their nature.
-
-> Check out [Bulbapedia](https://bulbapedia.bulbagarden.net/wiki/Flavor) for greater detail.
 
 ```ts
 export interface BerryFlavor {
@@ -57,11 +55,11 @@ export interface BerryFlavor {
 }
 ```
 
+> Check out [Bulbapedia](https://bulbapedia.bulbagarden.net/wiki/Flavor) for greater detail.
+
 ## Berry Firmness
 
 Berries can be soft, very soft, hard, super hard or very hard.
-
-> Check out [Bulbapedia](https://bulbapedia.bulbagarden.net/wiki/Category:Berries_by_firmness) for greater detail.
 
 ```ts
 export interface BerryFirmness {
@@ -75,6 +73,8 @@ export interface BerryFirmness {
   names: Name[];
 }
 ```
+
+> Check out [Bulbapedia](https://bulbapedia.bulbagarden.net/wiki/Category:Berries_by_firmness) for greater detail.
 
 ## Berry Flavor Map
 

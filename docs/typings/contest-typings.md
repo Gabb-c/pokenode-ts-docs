@@ -4,8 +4,6 @@
 
 Contest types are categories judges used to weigh a Pokémon's condition in Pokémon contests.
 
-> Check out [Bulbapedia](https://bulbapedia.bulbagarden.net/wiki/Contest_condition) for greater detail.
-
 ```ts
 export interface ContestType {
   /** The identifier for this resource */
@@ -18,6 +16,8 @@ export interface ContestType {
   names: ContestName[];
 }
 ```
+
+> Check out [Bulbapedia](https://bulbapedia.bulbagarden.net/wiki/Contest_condition) for greater detail.
 
 ## Contest Effect
 
@@ -46,8 +46,6 @@ for the Generation IV games, specifically in [Diamond, Pearl](https://bulbapedia
 and [Platinum](https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_Platinum_Version).
 In it, Pokémon are rated on their appearance and performance, rather than strength.
 
-> Check out [Bulbapedia](https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_Super_Contest) for greater detail.
-
 ```ts
 export interface SuperContestEffect {
   /** The identifier for this resource */
@@ -60,6 +58,8 @@ export interface SuperContestEffect {
   moves: NamedAPIResource[];
 }
 ```
+
+> Check out [Bulbapedia](https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_Super_Contest) for greater detail.
 
 ## Contest Name
 

@@ -7,8 +7,6 @@ There are numerous methods of evolution which define how and when Pokémon evolv
 Most Pokémon will evolve by leveling up while others evolve through specific means,
 such as being traded, achieving a certain amount of friendship or leveling at certain times, among others.
 
-> Check out [Bulbapedia](https://bulbapedia.bulbagarden.net/wiki/Methods_of_evolution) for greater detail.
-
 ```ts
 export interface EvolutionTrigger {
   /** The identifier for this resource. */
@@ -21,6 +19,8 @@ export interface EvolutionTrigger {
   pokemon_species: NamedAPIResource[];
 }
 ```
+
+> Check out [Bulbapedia](https://bulbapedia.bulbagarden.net/wiki/Methods_of_evolution) for greater detail.
 
 ## Evolution Detail
 
@@ -62,7 +62,7 @@ export interface EvolutionDetail {
   /** The required relation between the Pokémon's Attack and Defense stats. 1 means Attack > Defense. 0 means Attack = Defense. -1 means Attack < Defense. */
   relative_physical_stats: 1 | 0 | -1;
   /** The required time of day. Day or night. */
-  time_of_day: 'Day' | 'Night';
+  time_of_day: "Day" | "Night";
   /** Pokémon species for which this one must be traded. */
   trade_species: NamedAPIResource;
   /** Whether or not the 3DS needs to be turned upside-down as this Pokémon levels up. */

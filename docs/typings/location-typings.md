@@ -5,8 +5,6 @@
 Locations that can be visited within the games.
 Locations make up sizable portions of regions, like cities or routes.
 
-> Check the [List of Locations](https://bulbapedia.bulbagarden.net/wiki/List_of_locations_by_name) for greater detail.
-
 ```ts
 export interface Location {
   /** The identifier for this resource */
@@ -24,12 +22,12 @@ export interface Location {
 }
 ```
 
+> Check the [List of Locations](https://bulbapedia.bulbagarden.net/wiki/List_of_locations_by_name) for greater detail.
+
 ## Location Area
 
 Location areas are sections of areas, such as floors in a building or cave.
 Each area has its own set of possible Pokémon encounters.
-
-> Check out [Bulbapedia](https://bulbapedia.bulbagarden.net/wiki/Area) for more detail.
 
 ```ts
 export interface LocationArea {
@@ -50,6 +48,8 @@ export interface LocationArea {
 }
 ```
 
+> Check out [Bulbapedia](https://bulbapedia.bulbagarden.net/wiki/Area) for more detail.
+
 ## Pal Park Area
 
 Areas used for grouping Pokémon encounters in Pal Park.
@@ -67,8 +67,6 @@ Pal Park is divided into five separate areas:
 
 ---
 
-> Check out [Bulbapedia](https://bulbapedia.bulbagarden.net/wiki/Pal_Park) for greater detail.
-
 ```ts
 export interface PalParkArea {
   /**The identifier for this resource */
@@ -81,6 +79,8 @@ export interface PalParkArea {
   pokemon_encounters: PalParkEncounterSpecies[];
 }
 ```
+
+> Check out [Bulbapedia](https://bulbapedia.bulbagarden.net/wiki/Pal_Park) for greater detail.
 
 ## Pal Park Encounter Species
 
@@ -103,8 +103,6 @@ A region is an organized area of the Pokémon world.
 Most often, the main difference between regions is
 the species of Pokémon that can be encountered within them.
 
-> Check out [Bulbapedia](https://bulbapedia.bulbagarden.net/wiki/Region) for greater detail.
-
 ```ts
 export interface Region {
   /** The identifier for this resource */
@@ -123,6 +121,8 @@ export interface Region {
   version_groups: NamedAPIResource[];
 }
 ```
+
+> Check out [Bulbapedia](https://bulbapedia.bulbagarden.net/wiki/Region) for greater detail.
 
 ## Encounter Method Rate
 

@@ -5,8 +5,6 @@
 A generation is a grouping of the Pokémon games that separates them based on the Pokémon they include.
 In each generation, a new set of Pokémon, Moves, Abilities and Types that did not exist in the previous generation are released.
 
-> Check out [Bulbapedia](https://bulbapedia.bulbagarden.net/wiki/Generation) for greater detail.
-
 ```ts
 export interface Generation {
   /** The identifier for this resource */
@@ -30,13 +28,13 @@ export interface Generation {
 }
 ```
 
+> Check out [Bulbapedia](https://bulbapedia.bulbagarden.net/wiki/Generation) for greater detail.
+
 ## Pokedex
 
 A Pokédex is a handheld electronic encyclopedia device;
 one which is capable of recording and retaining information of the various Pokémon in a given region
 with the exception of the national dex and some smaller dexes related to portions of a region.
-
-> See [Bulbapedia](https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9dex) for greater detail.
 
 ```ts
 export interface Pokedex {
@@ -59,6 +57,8 @@ export interface Pokedex {
 }
 ```
 
+> See [Bulbapedia](https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9dex) for greater detail.
+
 ## Pokemon Entry
 
 Catalogued pokémon for pokedex.
@@ -76,8 +76,6 @@ export interface PokemonEntry {
 
 Versions of the games, e.g., Red, Blue or Yellow,
 
-> Check out [Bulbapedia](https://bulbapedia.bulbagarden.net/wiki/Core_series) for greater detail.
-
 ```ts
 export interface Version {
   /** The identifier for this resource */
@@ -90,6 +88,8 @@ export interface Version {
   version_group: NamedAPIResource;
 }
 ```
+
+> Check out [Bulbapedia](https://bulbapedia.bulbagarden.net/wiki/Core_series) for greater detail.
 
 ## Version Group
 

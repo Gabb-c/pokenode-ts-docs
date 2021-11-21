@@ -114,8 +114,6 @@ export interface ItemPocket {
 An item is an object in the games which the player can pick up, keep in their bag, and use in some manner.
 They have various uses, including healing, powering up, helping catch Pokémon, or to access a new area.
 
-> Check out [Bulbapedia](https://bulbapedia.bulbagarden.net/wiki/Item) for greater detail.
-
 ```ts
 export interface Item {
   /** The identifier for this resource */
@@ -150,3 +148,5 @@ export interface Item {
   machines: MachineVersionDetail[];
 }
 ```
+
+> Check out [Bulbapedia](https://bulbapedia.bulbagarden.net/wiki/Item) for greater detail.
