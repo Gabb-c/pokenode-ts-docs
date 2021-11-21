@@ -56,16 +56,12 @@ Areas used for grouping Pokémon encounters in Pal Park.
 They're like habitats that are specific to Pal Park.
 Pal Park is divided into five separate areas:
 
----
-
-- [Field](https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_Pal_Park_location#Field)
-- [Forest](https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_Pal_Park_location#Forest)
-- [Mountain](https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_Pal_Park_location#Mountain)
-- [Pond](https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_Pal_Park_location#Pound)
-- [Sea](https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_Pal_Park_location#Sea)
-- [Trivia](https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_Pal_Park_location#Trivia)
-
----
+- [Field](https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_Pal_Park_location#Field) - The field is directly in front of the entrance to the catching area.
+- [Forest](https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_Pal_Park_location#Forest) - The forest is a path along the northwest corner of the catching area that leads to the field in the south and mountain in the east.
+- [Mountain](https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_Pal_Park_location#Mountain) - The mountain is located in the north of the catching area.
+- [Pond](https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_Pal_Park_location#Pound) - The pond is located in the northeast corner of the catching area. Surf is required to obtain the Pokémon within it.
+- [Sea](https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_Pal_Park_location#Sea) - The sea is located in the southeast corner of the catching area. Surf is required to obtain the Pokémon within it.
+- [Trivia](https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_Pal_Park_location#Trivia) - Pokémon introduced in Generation IV have Pal Park locations and score values programmed in, even though they cannot be migrated from Generation III.
 
 ```ts
 export interface PalParkArea {
