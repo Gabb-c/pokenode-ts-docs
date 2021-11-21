@@ -4,15 +4,15 @@
 
 The Encounter Client provide methods to access the [Encounter Endpoinds](https://pokeapi.co/docs/v2#encounters-section):
 
-- `getEncounterMethodByName`(name: `string`) => [EncounterMethod](typings/encounter-typings?id=encounter-method)
-- `getEncounterMethodByID`(id: `number`) => [EncounterMethod](typings/encounter-typings?id=encounter-method)
-- `getEncounterConditionByName`(name: `string`) => [EncounterCondition](typings/encounter-typings?id=encounter-condition)
-- `getEncounterConditionById`(id: `number`) => [EncounterCondition](typings/encounter-typings?id=encointer-condition)
-- `getEncounterConditionValueByName`(name: `string`) => [EncounterConditionValue](typings/encounter-typings?id=encounter-condition-value)
-- `getEncounterConditionValueById`(id: `number`) => [EncounterConditionValue](typings/encounter-typings?id=encointer-condition-value)
-- `listEncunterMethods`(offset?: `number`, limit?: `number`) => [NamedAPIResourceList](/docs/typings/common-typings#named-api-resource-list)
-- `listEncounterConditions`(offset?: `number`, limit?: `number`) => [NamedAPIResourceList](/docs/typings/common-typings#named-api-resource-list)
-- `listEncounterConditionValues`(offset?: `number`, limit?: `number`) => [NamedAPIResourceList](/docs/typings/common-typings#named-api-resource-list)
+- `getEncounterMethodByName`(name: `string`) : [EncounterMethod](/docs/typings/encounter-typings#encounter-method)
+- `getEncounterMethodByID`(id: `number`) : [EncounterMethod](/docs/typings/encounter-typings#encounter-method)
+- `getEncounterConditionByName`(name: `string`) : [EncounterCondition](/docs/typings/encounter-typings#encounter-condition)
+- `getEncounterConditionById`(id: `number`) : [EncounterCondition](/docs/typings/encounter-typings#encounter-condition)
+- `getEncounterConditionValueByName`(name: `string`) : [EncounterConditionValue](/docs/typings/encounter-typings#encounter-condition-value)
+- `getEncounterConditionValueById`(id: `number`) : [EncounterConditionValue](/docs/typings/encounter-typings#encounter-condition-value)
+- `listEncunterMethods`(offset?: `number`, limit?: `number`) : [NamedAPIResourceList](/docs/typings/common-typings#named-api-resource-list)
+- `listEncounterConditions`(offset?: `number`, limit?: `number`) : [NamedAPIResourceList](/docs/typings/common-typings#named-api-resource-list)
+- `listEncounterConditionValues`(offset?: `number`, limit?: `number`) : [NamedAPIResourceList](/docs/typings/common-typings#named-api-resource-list)
 
 ## Example
 
