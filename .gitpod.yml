@@ -4,6 +4,7 @@ tasks:
     init: |
       yarn --check-files --silent
       yarn autoclean --force
+      yarn clear
 
 github:
   prebuilds:
