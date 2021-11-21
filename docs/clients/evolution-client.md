@@ -4,11 +4,11 @@
 
 The Evolution Client provide methods to access the [Evolution Endpoinds](https://pokeapi.co/docs/v2#evolution-section):
 
-- `getEvolutionChainByID`(id: `number`) => [EvolutionChain](/docs/typings/evolution-typings#evolution-chain)
-- `getEvolutionTriggerByName`(name: `string`) => [EvolutionTrigger](/docs/typings/evolution-typings#evolution-trigger)
-- `getEvolutionTriggerByID`(id: `number`) => [EvolutionTrigger](/docs/typings/evolution-typings#evolution-trigger)
-- `listEvolutionChains`(offset?: `number`, limit?: `number`) => [NamedAPIResourceList](/docs/typings/common-typings#named-api-resource-list)
-- `listEvolutionTriggers`(offset?: `number`, limit?: `number`) => [NamedAPIResourceList](/docs/typings/common-typings#named-api-resource-list)
+- `getEvolutionChainByID`(id: `number`) : [EvolutionChain](/docs/typings/evolution-typings#evolution-chain)
+- `getEvolutionTriggerByName`(name: `string`) : [EvolutionTrigger](/docs/typings/evolution-typings#evolution-trigger)
+- `getEvolutionTriggerByID`(id: `number`) : [EvolutionTrigger](/docs/typings/evolution-typings#evolution-trigger)
+- `listEvolutionChains`(offset?: `number`, limit?: `number`) : [NamedAPIResourceList](/docs/typings/common-typings#named-api-resource-list)
+- `listEvolutionTriggers`(offset?: `number`, limit?: `number`) : [NamedAPIResourceList](/docs/typings/common-typings#named-api-resource-list)
 
 ## Example
 
