@@ -43,7 +43,7 @@
     "url-loader": "^4.1.1"
   },
   "devDependencies": {
-    "@commitlint/cli": "^15.0.0",
+    "@commitlint/cli": "^16.0.1",
     "@commitlint/config-conventional": "^15.0.0",
     "@docusaurus/module-type-aliases": "2.0.0-beta.14",
     "@tsconfig/docusaurus": "^1.0.4",
