@@ -2,6 +2,7 @@ import React from "react";
 import clsx from "clsx";
 import Layout from "@theme/Layout";
 import Link from "@docusaurus/Link";
+import Head from "@docusaurus/Head";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import styles from "./index.module.css";
 import HomepageFeatures from "../components/HomepageFeatures";
@@ -34,6 +35,9 @@ const Home = (): JSX.Element => {
     >
       <HomepageHeader />
       <main>
+        <Head>
+          <meta property="og:image" content="cover.jpg" />
+        </Head>
         <HomepageFeatures />
       </main>
     </Layout>
