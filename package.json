@@ -20,6 +20,7 @@
     "docusaurus": "docusaurus",
     "start:dev": "docusaurus clear && docusaurus start",
     "build": "docusaurus build",
+    "analyze": "docusaurus build --bundle-analyzer",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
     "clear": "docusaurus clear",
