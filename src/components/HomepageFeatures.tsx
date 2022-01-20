@@ -39,7 +39,7 @@ const FeatureList: FeatureItem[] = [
         >
           Axios auto-cache
         </a>{" "}
-        feature can meke your app requests blazing fast! You can store request
+        feature can make your app requests blazing fast! You can store request
         results to prevent unneeded network requests.
       </>
     ),
